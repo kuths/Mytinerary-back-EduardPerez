@@ -1,0 +1,28 @@
+{
+  "name": "sprint2-fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.ja"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuths/Mytinerary-back-EduardPerez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuths/Mytinerary-back-EduardPerez/issues"
+  },
+  "homepage": "https://github.com/kuths/Mytinerary-back-EduardPerez#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
