@@ -1,6 +1,8 @@
 import { Router } from "express";
-import { allCity, cityByName, cityById, updateCity, deleteCity} from "../controllers/city/read.js";
+import { allCity, cityByName, cityById } from "../controllers/city/read.js";
 import create from "../controllers/city/create.js";
+import updateCity from "../controllers/city/modify.js";
+import deleteCity from "../controllers/city/delete.js";
 
 const cityRouter = Router();
 cityRouter.get ('/allCity', allCity )
